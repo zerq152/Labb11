@@ -3,25 +3,32 @@
 }
 
 .logo{
-    width: 5px;
-    align-self: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+.logobild{
+    width: 100px;
+    vertical-align: center;
 }
 
 #nummerett{
-    background-color: aqua;
+    background-color: orange;
     border-width: 1px;
     border-color: black;
 }
 
 .bilnummertva{
-    background-color: black;
+    background-color: orange;
     margin: 10px;
 }
 
 .link{
-    background-color: blueviolet;
+    background-color: red;
     border: 1px;
-    margin: 5px;
+    margin: 5px, 10px;
+    color: darkseagreen;
 }
 
 
