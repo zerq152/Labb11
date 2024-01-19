@@ -1,0 +1,27 @@
+*{
+    
+}
+
+.logo{
+    width: 5px;
+    align-self: center;
+}
+
+#nummerett{
+    background-color: aqua;
+    border-width: 1px;
+    border-color: black;
+}
+
+.bilnummertva{
+    background-color: black;
+    margin: 10px;
+}
+
+.link{
+    background-color: blueviolet;
+    border: 1px;
+    margin: 5px;
+}
+
+
