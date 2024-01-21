@@ -1,6 +1,45 @@
+* {
+    box-sizing: content-box;
+}
 
+header {
+    background-color: gold;
+    color: black;
+    padding-left: 40px;
+    font-size: 60px;
+ 
+}
 
+.logo {
+    vertical-align: middle;
+    
+}
 
 img {
-    width: 50%;
+    width: 10%;
+} 
+
+nav{
+    background-color: black;
+    color: gold;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    background-color: gold;
+    color: black;
+    border-color: gold;
+    width: 60px;
+    height: 30px;
+    font-weight: bold;
+    
+}
+
+iframe {
+    background-color: gold;
+    width: 75%;
+    padding: 25px 25px 25px 25px;
 }
