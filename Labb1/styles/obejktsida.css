@@ -12,6 +12,8 @@
 
 }
 
+
+
 .logobild{
     width: 2%;
     background-color: aqua;
@@ -34,26 +36,19 @@ h1
     
 }
 
-a
-{
-    color:black;
-}
-
-p
-{
-
-}
 
 .item1
 {
     width: 69%;
     padding: 10px;
+    margin-left: 10px;
 }
 
 .item2{
     background-color: orange;
     padding: 10px;
     margin-top: 10px;
+    margin-left: 10px;
     width: 69%;
    
 }
@@ -61,13 +56,18 @@ p
 .item3
 {
     margin-left: 10px;
+    margin-top: 10px;
     width: 30%;
-   
+}
+
+.reklam
+{
+    width: 100%;
 }
 
 .imgs
 {
-
+    width: 30%;
 }
 
 .link{
@@ -88,4 +88,5 @@ h2
 {
     margin-top: 3%;
     background-color: aliceblue;
+    padding: 10px;
 }
