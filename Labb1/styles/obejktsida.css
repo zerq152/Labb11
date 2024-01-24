@@ -9,6 +9,7 @@
     vertical-align: middle;
     background-color: aqua;
     padding: 2px;
+    border-radius: 10px;
 
 }
 
@@ -39,9 +40,10 @@ h1
 
 .item1
 {
-    width: 69%;
+    width: 89%;
     padding: 10px;
     margin-left: 10px;
+    border-radius: 10px;
 }
 
 .item2{
@@ -49,7 +51,8 @@ h1
     padding: 10px;
     margin-top: 10px;
     margin-left: 10px;
-    width: 69%;
+    width: 89%;
+    border-radius: 10px;
    
 }
 
@@ -57,17 +60,20 @@ h1
 {
     margin-left: 10px;
     margin-top: 10px;
-    width: 30%;
+    width: 10%;
+    float:right;
 }
 
 .reklam
 {
-    width: 100%;
+    height: auto;
+    width: 30%;
+
 }
 
 .imgs
 {
-    width: 30%;
+    width: 20%;
 }
 
 .link{
@@ -89,4 +95,11 @@ h2
     margin-top: 3%;
     background-color: aliceblue;
     padding: 10px;
+    border-radius: 10px;
+}
+
+aside 
+{
+    float: right;
+    flex-direction:row-reverse;
 }
