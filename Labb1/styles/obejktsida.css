@@ -60,7 +60,13 @@ h1
     margin-left: 10px;
     width: 70%;
     border-radius: 10px;
+    position: relative;
    
+}
+
+#lastcar
+{
+    margin-bottom: 10px;
 }
 
 .item3
@@ -166,4 +172,14 @@ footer
     padding-bottom: 10px;
     width: 100%;
     display: block;
+}
+
+ul.btext
+{
+    display: block;   
+}
+
+.listbr
+{
+    margin-bottom: 15px;
 }
