@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 .logo
 {
     width: 100%;
@@ -20,8 +21,9 @@
 
 .logobild
 {
-    width: 2%;
+    width: 3%;
     background-color: aqua;
+    vertical-align: middle;
 }
 
 .background
@@ -48,6 +50,7 @@ h1
     padding: 10px;
     margin-left: 10px;
     border-radius: 10px;
+    position: relative;
 }
 
 .item2{
@@ -99,10 +102,21 @@ h2
     background-color: aliceblue;
     padding: 10px;
     border-radius: 10px;
+    list-style: none;
+}
+
+.ltext
+{
+    margin-top: 3%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
 }
 
 aside 
 {
+
     float: right;
     flex-direction:row-reverse;
 }
@@ -111,6 +125,7 @@ aside
 {
     margin: 0;
     background-color: aqua;
+    vertical-align: middle;
 }
 
 .logolank
@@ -121,4 +136,34 @@ aside
 title
 {
     display: none;
+}
+
+a:hover
+{
+    color: chartreuse;
+}
+
+.pris
+{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+.ltext
+{
+    background-color: aliceblue;
+}
+
+footer 
+{
+    color: gold;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    display: block;
 }
