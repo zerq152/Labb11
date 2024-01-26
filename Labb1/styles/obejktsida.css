@@ -93,6 +93,7 @@ h1
     margin-top: 10px;
     color:black;
     width: 50%;
+    
 }
 
 h2
@@ -182,4 +183,9 @@ ul.btext
 .listbr
 {
     margin-bottom: 15px;
+}
+
+div.background > h1
+{
+    margin: 10px;
 }
