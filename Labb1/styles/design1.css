@@ -33,6 +33,7 @@ nav>ul.main-menu{
     padding: 0;
     margin: 0;
 }
+
 nav>ul>li{
     display: inline;
     margin-right: 15px;
@@ -40,7 +41,7 @@ nav>ul>li{
     color: inherit;
 }
 nav>ul>il>a{
-    color: transparent;
+
 }
 
 
@@ -53,14 +54,14 @@ iframe {
     
 }
 
-article {
+aside {
     display: flex;
     flex-direction: column;
     background-color: gold;
-    height: 700px;
+    height: 1400px;
 }
-article>img {
-    max-height: 350px;
+aside>img {
+    max-height: 600px;
     padding-top: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
