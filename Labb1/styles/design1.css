@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 header {
@@ -7,7 +7,7 @@ header {
     color: black;
     padding-left: 40px;
     font-size: 60px;
- 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .logo {
@@ -15,31 +15,63 @@ header {
     
 }
 
-img {
+header>img {
     width: 10%;
 } 
 
-nav{
+nav {
     background-color: black;
     color: gold;
     height: 40px;
-    padding-top: 5px;
-    text-align: center;
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: bold;
+}
+nav>ul.main-menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav>ul>li{
+    display: inline;
+    margin-right: 15px;
+    text-decoration: none;
+    color: inherit;
+}
+nav>ul>il>a{
+    color: transparent;
 }
 
-button {
-    background-color: gold;
-    color: black;
-    border-color: gold;
-    width: 60px;
-    height: 30px;
-    font-weight: bold;
-    
-}
 
 iframe {
     background-color: gold;
+    float: left;
     width: 75%;
+    height: 700px;
     padding: 25px 25px 25px 25px;
+    
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+    height: 700px;
+}
+article>img {
+    max-height: 350px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+footer {
+    color: gold;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
