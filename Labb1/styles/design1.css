@@ -59,12 +59,16 @@ aside {
     flex-direction: column;
     background-color: gold;
     height: 1400px;
+    max-width:25%;
 }
-aside>img {
+aside>a>img {
+    align-content: center;
     max-height: 600px;
+    max-width: 300px;
     padding-top: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
+    margin-left: 25px;
 }
 
 footer {
@@ -75,4 +79,5 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    text-decoration: none;
 }
