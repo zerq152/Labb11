@@ -189,3 +189,36 @@ div.background > h1
 {
     margin: 10px;
 }
+
+div.item2 > a:hover
+{
+    color: blue;
+}
+
+div.background > div.item4 > img
+{
+    width: 50%;
+}
+
+.biltext
+{
+    display: block;   
+}
+
+.billista
+{
+    margin-bottom: 15px;
+}
+
+#bilid
+{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+div.bildiv > ul.biltext > li > h2
+{
+    background-color: aliceblue;
+}
