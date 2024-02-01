@@ -22,26 +22,52 @@ header>img {
 nav {
     background-color: black;
     color: gold;
-    height: 40px;
-    padding-left: 300px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
     font-weight: bold;
+    border: 1px solid gold;
 }
-nav>ul.main-menu{
+
+.dropdown{
+    position: inherit;
+    display: inline-block;
+}
+.dropdown-title{
+    font-size: 25px;
+    padding-top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: gold;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    margin-left: 30rem;
+    width: 400px;
+    background-color: gold;
+    border: 1px solid black;
+    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.2);
     list-style: none;
+    border-radius: 5px;
     padding: 0;
-    margin: 0;
 }
 
-nav>ul>li{
-    display: inline;
-    margin-right: 15px;
+.dropdown-menu a{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
     text-decoration: none;
-    color: inherit;
+    color: black;
+    border: 1px solid black;
+    width:100%;
+    
 }
-nav>ul>il>a{
-
+.dropdown-menu a:focus{
+    background-color: whitesmoke;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
 
