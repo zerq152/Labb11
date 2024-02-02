@@ -99,6 +99,66 @@ a:hover
     color:darkred;
 }
 
+form
+{
+    background-color: black;
+    color: gold;
+    border: 1px solid white;
+    margin-right: 25px;
+    max-width: 400px;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    right: 0vh;
+}
+form>h1
+{
+    text-align: center;
+}
+.field
+{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="text"], input[type="numbers"], input[type="email"], select, textarea
+{
+    display: block;
+    width:100%;
+    max-width: 400px;
+    border: 1px solid gold;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top:  0.25rem;
+
+}
+input[type="text"]:focus, input[type="numbers"]:focus, input[type="email"]:focus, select:focus, textarea:focus 
+{
+    outline: none;
+    border-color: gold;
+    box-shadow: 0 0 0 3px rgba(255,215,0,0.5);
+}
+textarea
+{
+    height: 100%;
+    width: 100%;
+    max-width: 400px;
+}
+button
+{
+    color: black;
+    background-color: gold;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 1px sold gold;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    margin-left: 1.5rem;
+
+}
+
 footer {
     color: gold;
     background-color: black;
@@ -108,4 +168,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     text-decoration: none;
+    position: absolute;
+    bottom: -55vh;
+    width: 100%;
 }
