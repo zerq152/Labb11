@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gold;
+    color: black;
+    padding-left: 40px;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    vertical-align: middle;
+    
+}
+
+header>img {
+    width: 10%;
+} 
+
+nav 
+{
+    background-color: black;
+    color: gold;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid gold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.dropdown
+{
+    width: 100%;
+    background-color: black;
+    display: block;
+    display: inline-block;
+}
+
+.dropdown-title
+{
+    font-size: 25px;
+    padding-top: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    color: gold;
+
+}
+
+.dropdown-menu
+{
+    display: none;
+    position: absolute;
+    margin-left: 30rem;
+    width: 25%;
+    max-width: 400px;
+    background-color: gold;
+    border: 1px solid black;
+    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.2);
+    list-style: none;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 37%;
+}
+
+.dropdown-menu a
+{
+    display: block;
+    padding: 10px;
+    font-size: 100%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    width:100%;
+    
+}
+
+.dropdown-menu a:focus
+{
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+
+
+iframe {
+    background-color: gold;
+    float: left;
+    width: 75%;
+    height: 700px;
+    padding: 25px 25px 25px 25px;
+    
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+    height: 1400px;
+    max-width:25%;
+}
+aside>a>img {
+    align-content: center;
+    max-height: 600px;
+    max-width: 300px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-left: 25px;
+}
+
+footer {
+    color: gold;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
