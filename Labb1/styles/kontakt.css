@@ -89,31 +89,14 @@ nav
     display: block;
 }
 
-
-iframe {
-    background-color: gold;
-    float: left;
-    width: 75%;
-    height: 700px;
-    padding: 25px 25px 25px 25px;
-    
+.dropdown-menu a:hover
+{
+    background-color: rgba(245, 245, 245, 0.384);
 }
 
-aside {
-    display: flex;
-    flex-direction: column;
-    background-color: gold;
-    height: 1400px;
-    max-width:25%;
-}
-aside>a>img {
-    align-content: center;
-    max-height: 600px;
-    max-width: 300px;
-    padding-top: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    margin-left: 25px;
+a:hover
+{
+    color:darkred;
 }
 
 footer {

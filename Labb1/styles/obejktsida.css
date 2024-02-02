@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
+    
 }
 
 
@@ -79,12 +80,18 @@ nav
 
 .dropdown-menu a:focus
 {
-    background-color: whitesmoke;
+   background-color: whitesmoke;
 }
 
 .dropdown:hover .dropdown-menu
 {
     display: block;
+
+}
+
+.dropdown-menu a:hover
+{
+    background-color: rgba(245, 245, 245, 0.384);
 }
 
 
@@ -223,7 +230,7 @@ title
 
 a:hover
 {
-    color: chartreuse;
+    color:darkred;
 }
 
 .pris
