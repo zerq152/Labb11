@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
 }
@@ -12,12 +13,12 @@ header {
 
 .logo {
     vertical-align: middle;
-    
+
 }
 
 header>img {
     width: 10%;
-} 
+}
 
 nav {
     background-color: black;
@@ -29,46 +30,48 @@ nav {
     border: 1px solid gold;
 }
 
-
-.dropdown{
+.dropdown {
     position: inherit;
     display: inline-block;
 }
-.dropdown-title{
+
+.dropdown-title {
     font-size: 25px;
     padding-top: 10px;
     cursor: pointer;
     background-color: transparent;
     color: gold;
 }
-.dropdown-menu{
+
+.dropdown-menu {
     display: none;
     position: absolute;
+    /*för att undvika att det blir en "vit ruta" bakom menydroppen*/
     margin-left: 30rem;
     width: 400px;
     background-color: gold;
-    border: 1px solid black;
     box-shadow: 0 8px 16px rgba(255, 215, 0, 0.2);
     list-style: none;
     border-radius: 5px;
     padding: 0;
 }
 
-.dropdown-menu a{
+.dropdown-menu a {
     display: block;
     padding: 10px;
     font-size: 20px;
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    width:100%;
-    
+    width: 100%;
+
 }
-.dropdown-menu a:focus{
-    background-color: whitesmoke;
-}
-.dropdown:hover .dropdown-menu{
+
+.dropdown:hover .dropdown-menu {
     display: block;
+}
+.dropdown-menu a:hover{
+    background-color: rgba(255, 255, 255, 0.384);
 }
 
 
@@ -78,7 +81,7 @@ iframe {
     width: 75%;
     height: 700px;
     padding: 25px 25px 25px 25px;
-    
+
 }
 
 aside {
@@ -86,8 +89,9 @@ aside {
     flex-direction: column;
     background-color: gold;
     height: 1400px;
-    max-width:25%;
+    max-width: 25%;
 }
+
 aside>a>img {
     align-content: center;
     max-height: 600px;
@@ -98,6 +102,53 @@ aside>a>img {
     margin-left: 25px;
 }
 
+form{
+    background-color: black;
+    color: gold;
+    border: 1px solid white;
+    margin-right: 25px;
+}
+form>h1{
+    text-align: center;
+}
+.field{
+    
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input[type="text"], input[type="numbers"], input[type="email"], select, textarea{
+    display: block;
+    width:100%;
+    border: 1px solid gold;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top:  0.25rem;
+    height: 2.5rem;
+    
+}
+input[type="text"]:focus, input[type="numbers"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: gold;
+    box-shadow: 0 0 0 3px rgba(255,215,0,0.5);
+}
+textarea{
+    height: 100%;
+    width: 100%;
+}
+button{
+    color: black;
+    background-color: gold;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 1px sold gold;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    margin-left: 1.5rem;
+
+}
 footer {
     color: gold;
     background-color: black;
