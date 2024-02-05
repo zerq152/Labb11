@@ -12,6 +12,8 @@ header {
 
 .logo {
     vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 9px;
     
 }
 
@@ -71,7 +73,7 @@ nav
 {
     display: block;
     padding: 10px;
-    font-size: 100%;
+    font-size: 25px;
     text-decoration: none;
     color: black;
     border: 1px solid black;
