@@ -21,6 +21,21 @@ header {
 
 }
 
+#logotext
+{
+    margin: 0;
+    background-color: gold;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+.logolank
+{
+    background-color: gold;
+}
+
 header>.logobild {
     width: 10%;
 }
@@ -106,8 +121,6 @@ nav
 {
     background-color: rgba(245, 245, 245, 0.384);
 }
-
-
 
 .logobild
 {
@@ -221,25 +234,12 @@ aside
     flex-direction:row-reverse;
 }
 
-#logotext
-{
-    margin: 0;
-    background-color: gold;
-    vertical-align: middle;
-    padding-left: 10px;
-    padding-top: 40px;
-    text-decoration: none;
-}
 
 a
 {
     text-decoration: none;
 }
 
-.logolank
-{
-    background-color: gold;
-}
 
 title
 {
