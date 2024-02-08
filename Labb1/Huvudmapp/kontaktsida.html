@@ -11,9 +11,10 @@
             <img src="../images/Logo1.jpeg" class="logo" alt="Logotyp"><!--Egen Bild-->
             Quattro Bil
         </header>
-        <nav id="menu" class="dropdown">
+        <!--dropdown meny-->
+        <nav id="menu" class="dropdown-menu">
             <span class="dropdown-title">Meny</span>
-                <ul class="dropdown-menu">
+                <ul class="dropdown">
                     <li><a href="Sida1.html" >Hem</a></li>
                     <li><a href="objektsida.html" >Bilar</a></li>
                     <li><a href="kontaktsida.html" >Kontakt</a></li>
@@ -29,6 +30,7 @@
                     </ul>
                 </div>
                 <aside>
+                <!--kontakt formulär inspirerat av Pierres föreläsning-->
                 <form>
                     <h1>Kontaktformulär:</h1>
                     
@@ -38,7 +40,7 @@
                 </div>
                 <div class="field">
                     <label for="telefon">Tele:</label>
-                    <input id="telefon" type="numbers" placeholder="+4676-1234556">
+                    <input id="telefon" type="number" placeholder="+4676-1234556">
                 </div>
                 <div class="field">
                     <label for="email">Mail:</label>
@@ -68,7 +70,7 @@
                     <textarea id="misc" rows="10"></textarea>
                 </div>
                 <div class="field">
-                    <input id="accept-terms" type="checkbox" required> <label for="accept-terms">Mitt ärende är akut!</label>
+                    <input id="akut" type="checkbox" required> <label for="akut">Mitt ärende är akut!</label>
                 </div>
                 <div class="field">
                     <input id="accept-terms" type="checkbox" required> <label for="accept-terms">Jag godkänner att mina uppgifter sparas enligt GDPR</label>

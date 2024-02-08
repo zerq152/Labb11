@@ -6,6 +6,10 @@
     
 }
 
+title
+{
+    display: none;
+}
 
 header {
     background-color: gold;
@@ -36,8 +40,27 @@ header {
     background-color: gold;
 }
 
+.logobild
+{
+    width: 10%;
+    background-color: gold;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 9px;
+}
+
 header>.logobild {
     width: 10%;
+}
+
+.background
+{
+    background-color: gold;
+}
+
+h1
+{
+    width: 100%;
 }
 
 nav 
@@ -52,7 +75,7 @@ nav
 
 }
 
-.dropdown
+.dropdown-menu
 {
     width: 110%;
     margin-left: -40px;
@@ -74,12 +97,12 @@ nav
 
 }
 
-.dropdown-menu
+.dropdown
 {
     display: none;
     position: absolute;
     left: 6%;
-    margin-left: 35rem;
+    margin-left: 30rem;
     width: 25%;
     max-width: 400px;
     background-color: gold;
@@ -89,12 +112,12 @@ nav
     border-radius: 5px;
     padding: 0;
     margin-top: 5px;
-    margin-left: 37%;
+    
     
 
 }
 
-.dropdown-menu a
+.dropdown a
 {
     display: block;
     padding: 10px;
@@ -106,53 +129,25 @@ nav
     
 }
 
-.dropdown-menu a:focus
+.dropdown a:focus
 {
    background-color: whitesmoke;
 }
 
-.dropdown:hover .dropdown-menu
+.dropdown-menu:hover .dropdown
 {
     display: block;
 
 }
 
-.dropdown-menu a:hover
+.dropdown a:hover
 {
     background-color: rgba(245, 245, 245, 0.384);
 }
 
-.logobild
-{
-    width: 10%;
-    background-color: gold;
-    vertical-align: middle;
-    padding-top: 10px;
-    padding-bottom: 9px;
-}
-
-.background
-{
-    background-color: gold;
-}
-
-h1
-{
-    width: 100%;
-}
-
-#nummerett
-{
-    background-color: orange;
-    border-width: 1px;
-    border-color: black;
-    
-}
-
-
 #first
 {
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .item2
@@ -166,6 +161,49 @@ h1
     position: relative;
     border: solid black 1px;
    
+}
+
+div.item2 > a:hover
+{
+    color: blue;
+}
+
+.imgs
+{
+    width: 20%;
+}
+
+h2
+{
+    margin-top: 0;
+    margin-left: 10px;
+    background-color: orange;
+}
+
+.btext
+{
+    margin-top: 3%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    list-style: none;
+}
+
+ul.btext
+{
+    display: block;   
+}
+
+.listbr
+{
+    margin-bottom: 15px;
+}
+
+.pris
+{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
 }
 
 #lastcar
@@ -187,11 +225,6 @@ h1
 
 }
 
-.imgs
-{
-    width: 20%;
-}
-
 .link
 {
     background-color:aliceblue;
@@ -200,22 +233,6 @@ h1
     width: 50%;
     text-decoration: none;
     
-}
-
-h2
-{
-    margin-top: 0;
-    margin-left: 10px;
-    background-color: orange;
-}
-
-.btext
-{
-    margin-top: 3%;
-    background-color: aliceblue;
-    padding: 10px;
-    border-radius: 10px;
-    list-style: none;
 }
 
 .ltext
@@ -234,28 +251,14 @@ aside
     flex-direction:row-reverse;
 }
 
-
 a
 {
     text-decoration: none;
 }
 
-
-title
-{
-    display: none;
-}
-
 a:hover
 {
     color:darkred;
-}
-
-.pris
-{
-    position: absolute;
-    right: 10px;
-    bottom: 0;
 }
 
 .ltext
@@ -276,24 +279,9 @@ footer
     display: block;
 }
 
-ul.btext
-{
-    display: block;   
-}
-
-.listbr
-{
-    margin-bottom: 15px;
-}
-
 div.background > h1
 {
     margin: 10px;
-}
-
-div.item2 > a:hover
-{
-    color: blue;
 }
 
 div.background > div.item4 > img
