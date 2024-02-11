@@ -21,6 +21,11 @@ header>img {
     width: 10%;
 } 
 
+body
+{
+    background-color: gold;
+}
+
 nav 
 {
     background-color: black;
