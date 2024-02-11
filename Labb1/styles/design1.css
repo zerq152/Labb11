@@ -29,7 +29,7 @@ nav {
     border: 1px solid gold;
 }
 
-.dropdown {
+.dropdown-menu {
     position: inherit;
     display: inline-block;
 }
@@ -42,7 +42,7 @@ nav {
     color: gold;
 }
 
-.dropdown-menu {
+.dropdown {
     display: none;
     position: absolute;
     /*för att undvika att det blir en "vit ruta" bakom menydroppen*/
@@ -55,7 +55,7 @@ nav {
     padding: 0;
 }
 
-.dropdown-menu a {
+.dropdown a {
     display: block;
     padding: 10px;
     font-size: 20px;
@@ -66,11 +66,11 @@ nav {
 
 }
 
-.dropdown:hover .dropdown-menu {
+.dropdown-menu:hover .dropdown {
     display: block;
 }
 
-.dropdown-menu a:hover {
+.dropdown a:hover {
     background-color: rgba(255, 255, 255, 0.384);
 }
 
@@ -140,7 +140,7 @@ form>h1 {
 }
 
 input[type="text"],
-input[type="numbers"],
+input[type="number"],
 input[type="email"],
 select,
 textarea {
@@ -156,7 +156,7 @@ textarea {
 }
 
 input[type="text"]:focus,
-input[type="numbers"]:focus,
+input[type="number"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
@@ -175,7 +175,7 @@ button {
     background-color: gold;
     font-weight: bold;
     border-radius: 1rem;
-    border: 1px sold gold;
+    border: 1px solid gold;
     padding: 5px 5px 5px 5px;
     margin-bottom: 10px;
     margin-left: 1.5rem;
